@@ -32,3 +32,9 @@
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805142086336512)
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-004/main.cpp)
+
+## L1-005 考试座位号 （15 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805140211482624)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-005/main.cpp)
