@@ -26,3 +26,9 @@
 ### 解题思路
 
 打表。
+
+## L1-004 计算摄氏温度 （5 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805142086336512)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-004/main.cpp)
