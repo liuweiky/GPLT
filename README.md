@@ -38,3 +38,15 @@
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805140211482624)
 
 [C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-005/main.cpp)
+
+## L1-006 连续因子 （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805138600869888)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-006/main.cpp)
+
+### 解题思路
+
+若 N 是质数，则显然只有 N 本身。
+
+否则，对每个 i <= sqrt (N)，检查从 i 开始的连续的数之积是否能整除 N。记录下最长的连续数起止位置并取最长。
