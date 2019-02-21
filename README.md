@@ -56,3 +56,9 @@
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805136889593856)
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-007/main.cpp)
+
+## L1-008 求整数段和 （10 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805135224455168)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-008/main.cpp)
