@@ -62,3 +62,32 @@
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805135224455168)
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-008/main.cpp)
+
+
+## L2-001 紧急救援 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp)
+
+### 解题思路
+
+Dijkstra。这里使用 path_num[i] 来记录从起点到 i 有多少条最短路。path_num 的更新逻辑：
+
+```cpp
+if (dis[i] > dis[u] + graph[u][i])
+{
+    // ...
+    path_num[i] = path_num[u];
+}
+else if (dis[i] == dis[u] + graph[u][i])
+{
+    // ...
+    path_num[i] += path_num[u];
+}
+```
+
+还要注意在 Dijkstra 算法中，若某轮找不到新的 u，说明剩余未访问的点不在与起始点同一个连通分量中，应直接返回： 
+https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#62 
+
+此题还可以使用 Dijkstra + DFS。使用 ```vector<int> path[MAX_N]``` 记录所有前驱后 DFS 获得所有路径。
