@@ -88,6 +88,16 @@ else if (dis[i] == dis[u] + graph[u][i])
 ```
 
 还要注意在 Dijkstra 算法中，若某轮找不到新的 u，说明剩余未访问的点不在与起始点同一个连通分量中，应直接返回： 
-https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#62 
+https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62 
 
 此题还可以使用 Dijkstra + DFS。使用 ```vector<int> path[MAX_N]``` 记录所有前驱后 DFS 获得所有路径。
+
+## L2-002 链表去重 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805072641245184)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-002/main.cpp)
+
+### 解题思路
+
+散列打表，链表操作。
