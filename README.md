@@ -63,6 +63,15 @@
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-008/main.cpp)
 
+## L1-009 N个数求和 （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805133597065216)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-009/main.cpp)
+
+### 解题思路
+
+分数化简与求和。
 
 ## L2-001 紧急救援 （25 分）
 
