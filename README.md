@@ -93,6 +93,16 @@
 
 散列。
 
+## L1-012 计算指数 （5 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805128870084608)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-012/main.cpp)
+
+### 解题思路
+
+快速幂。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
