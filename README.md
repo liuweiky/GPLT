@@ -83,6 +83,16 @@
 
 注意 ```while (scanf("%d", &t) != EOF)``` 的写法。
 
+## L1-011 A-B （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805130426171392)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-011/main.cpp)
+
+### 解题思路
+
+散列。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
