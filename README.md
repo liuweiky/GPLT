@@ -146,3 +146,13 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 ### 解题思路
 
 散列打表，链表操作。
+
+## L2-003 月饼 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805071789801472)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-003/main.cpp)
+
+### 解题思路
+
+贪心方法。
