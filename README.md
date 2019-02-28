@@ -73,6 +73,16 @@
 
 分数化简与求和。
 
+## L1-010 比较大小 （10 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805132040978432)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-010/main.cpp)
+
+### 解题思路
+
+注意 ```while (scanf("%d", &t) != EOF)``` 的写法。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
