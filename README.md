@@ -186,3 +186,13 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 ### 解题思路
 
 用 vector 模拟堆栈、二分查找。
+
+## L3-003 社交集群 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805053141925888)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-003/main.cpp)
+
+### 解题思路
+
+并查集。
