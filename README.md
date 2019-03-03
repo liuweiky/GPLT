@@ -176,3 +176,13 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 ### 解题思路
 
 0-1背包问题，动态规划。
+
+## L3-002 特殊堆栈 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805053695574016)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-002/main.cpp)
+
+### 解题思路
+
+用 vector 模拟堆栈、二分查找。
