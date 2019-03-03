@@ -206,3 +206,13 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 ### 解题思路
 
 BFS。
+
+## L3-005 垃圾箱分布 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805052131098624)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-005/main.cpp)
+
+### 解题思路
+
+Dijkstra。
