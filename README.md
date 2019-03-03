@@ -196,3 +196,13 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 ### 解题思路
 
 并查集。
+
+## L3-004 肿瘤诊断 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805052626026496)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-004/main.cpp)
+
+### 解题思路
+
+BFS。
