@@ -216,3 +216,13 @@ BFS。
 ### 解题思路
 
 Dijkstra。
+
+## L3-007 天梯地图 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805051153825792)
+
+[C++ (27/30)](https://github.com/Heliovic/GPLT/blob/master/L3-007/main.cpp)
+
+### 解题思路
+
+Dijkstra + DFS。【测试点 4】答案错误。
