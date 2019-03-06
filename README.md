@@ -167,6 +167,30 @@ https://github.com/Heliovic/GPLT/blob/master/L2-001/main.cpp#L62
 
 二叉树的构建、遍历。
 
+## L2-005 集合相似度 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805070149828608)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-005/main.cpp)
+
+### 解题思路
+
+STL set 的使用。注意，若使用如下代码读取 set 会附加拷贝的时间，导致超时：
+
+```cpp
+set<int> s1, s2;
+s1 = sts[t1];
+s2 = sts[t2];
+```
+
+正确的做法是，使用指针:
+
+```cpp
+set<int> *s1, *s2;
+s1 = &sts[t1];
+s2 = &sts[t2];
+```
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
