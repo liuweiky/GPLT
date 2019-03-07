@@ -191,6 +191,16 @@ s1 = &sts[t1];
 s2 = &sts[t2];
 ```
 
+## L2-006 树的遍历 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805069361299456)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-006/main.cpp)
+
+### 解题思路
+
+二叉树重建。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
