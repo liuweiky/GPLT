@@ -221,6 +221,16 @@ BFS。
 
 动态规划求最长对称子串。
 
+## L2-009 抢红包 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805066890854400)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-009/main.cpp)
+
+### 解题思路
+
+简单模拟。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
