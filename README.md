@@ -241,6 +241,16 @@ BFS。
 
 并查集。
 
+## L2-011 玩转二叉树 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805065406070784)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-011/main.cpp)
+
+### 解题思路
+
+二叉树重建、镜像遍历。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
