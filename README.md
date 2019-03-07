@@ -300,3 +300,13 @@ BFS。注意，若图论问题需要求关于层级的解，DFS 可能会导致�
 ### 解题思路
 
 静态树的构建，使用左2n，右2n+1的结构，最终判断是否时完全二叉树。
+
+## L3-011 直捣黄龙 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805049455132672)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-011/main.cpp)
+
+### 解题思路
+
+Dijkstra + DFS。
