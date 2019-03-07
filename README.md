@@ -280,3 +280,13 @@ Dijkstra。
 ### 解题思路
 
 Dijkstra + DFS。【测试点 4】答案错误。
+
+## L3-008 喊山 （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805050709229568)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-008/main.cpp)
+
+### 解题思路
+
+BFS。注意，若图论问题需要求关于层级的解，DFS 可能会导致最小层数错误，求层级时最好使用 BFS。
