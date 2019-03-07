@@ -211,6 +211,16 @@ s2 = &sts[t2];
 
 BFS。
 
+## L2-008 最长对称子串 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805067704549376)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-008/main.cpp)
+
+### 解题思路
+
+动态规划求最长对称子串。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
