@@ -201,6 +201,16 @@ s2 = &sts[t2];
 
 二叉树重建。
 
+## L2-007 家庭房产 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805068539215872)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-007/main.cpp)
+
+### 解题思路
+
+BFS。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
