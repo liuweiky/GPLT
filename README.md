@@ -263,6 +263,17 @@ BFS。
 
 二叉树重建、镜像遍历。
 
+## L2-012 关于堆的判断 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805064676261888)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-012/main.cpp)
+
+### 解题思路
+
+堆的插入、堆的性质。
+
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
