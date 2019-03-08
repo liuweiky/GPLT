@@ -295,6 +295,16 @@ BFS。
 
 DFS 求联通分量数。
 
+## L2-014 列车调度 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805063166312448)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-014/main.cpp)
+
+### 解题思路
+
+模拟 + 二分查找。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
