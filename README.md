@@ -279,6 +279,15 @@ BFS。
 
 堆的插入、堆的性质。
 
+## L2-013 红色警报 （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805063963230208)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-013/main.cpp)
+
+### 解题思路
+
+DFS 求联通分量数。
 
 ## L3-001 凑零钱 （30 分）
 
