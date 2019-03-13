@@ -145,6 +145,12 @@
 
 [C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-019/main.cpp)
 
+## L1-020 帅到没朋友 （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805117167976448)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-020/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
