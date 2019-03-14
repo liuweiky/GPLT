@@ -391,6 +391,12 @@ DFS 求联通分量数。
 
 DFS。
 
+## L2-017 人以群分 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805061056577536)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-017/main.cpp)
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
