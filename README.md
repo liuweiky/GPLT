@@ -163,6 +163,16 @@
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-022/main.cpp)
 
+## L1-023 输出GPLT （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805113036587008)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-023/main.cpp)
+
+### 解题思路
+
+打表。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
