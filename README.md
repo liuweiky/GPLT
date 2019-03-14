@@ -375,6 +375,12 @@ DFS 求联通分量数。
 
 模拟 + 二分查找。
 
+## L2-015 互评成绩 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805062432309248)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-015/main.cpp)
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
