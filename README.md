@@ -381,6 +381,16 @@ DFS 求联通分量数。
 
 [C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-015/main.cpp)
 
+## L2-016 愿天下有情人都是失散多年的兄妹 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805061769609216)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-016/main.cpp)
+
+### 解题思路
+
+DFS。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
