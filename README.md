@@ -191,6 +191,12 @@
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-026/main.cpp)
 
+## L1-027 出租 （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805107638517760)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-027/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
