@@ -407,6 +407,16 @@ DFS。
 
 模拟。
 
+## L2-019 悄悄关注 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805059731177472)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-019/main.cpp)
+
+### 解题思路
+
+STL set、map 的基本操作。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
