@@ -1,8 +1,8 @@
 #include <cstdio>
-#include <map>
 #include <vector>
 #include <climits>
 #include <algorithm>
+#include <queue>
 
 #define MAX_N 128
 #define MAX_M 128
@@ -10,14 +10,27 @@
 
 using namespace std;
 
-map<int, int> id2hash;
-map<int, int> hash2id;
+struct edge
+{
+    int s, t, d;
+    edge(int _s, int _t, int _d): s(_s), t(_t), d(_d) {}
+};
 
-int cur_hash = 0;
+struct prio_qnode
+{
+    int s, d;
+    prio_qnode(int _s, int _d): s(_s), d(_d) {}
+    bool operator < (const prio_qnode& rhs) const
+    {
+        return d > rhs.d;
+    }
+};
+
 int N, M, K;
 
 int stop_com[MAX_STOP][MAX_STOP];
 vector<int> graph[MAX_STOP];
+vector<edge> edges;
 vector<int> paths[MAX_STOP];
 
 int dis[MAX_STOP];
@@ -26,66 +39,49 @@ bool vis[MAX_STOP];
 vector<int> best_path;
 int best_transfer;
 
-int get_hash(int id)
+void add_edge(int s, int t, int d)
 {
-    if (id2hash.find(id) == id2hash.end())
-    {
-        id2hash[id] = cur_hash;
-        hash2id[cur_hash++] = id;
-    }
-    return id2hash[id];
-}
-
-int get_id(int h)
-{
-    return hash2id[h];
+    edge e(s, t, d);
+    edges.push_back(e);
+    graph[s].push_back(edges.size() - 1);
 }
 
 void dijkstra(int u)
 {
     fill_n(dis, MAX_STOP, INT_MAX);
     fill_n(vis, MAX_STOP, false);
-    for (int i = 0; i < cur_hash; i++)
+    for (int i = 0; i < MAX_STOP; i++)
         paths[i].clear();
 
     dis[u] = 0;
 
-    for (int i = 0; i < cur_hash - 1; i++)
+    priority_queue<prio_qnode> q;
+
+    q.push(prio_qnode(u, 0));
+
+    while (!q.empty())
     {
-        vis[u] = true;
+        prio_qnode n = q.top();
+        q.pop();
 
-        int sz = graph[u].size();
+        int v = n.s;
+        if (vis[v])
+            continue;
+        vis[v] = true;
 
-        for (int j = 0; j < sz; j++)
+        for (int i = 0; i < graph[v].size(); i++)
         {
-            int t = graph[u][j];
-            if (!vis[t] && dis[t] > dis[u] + 1)
+            edge& e = edges[graph[v][i]];
+            if (!vis[e.t] && dis[e.t] > dis[v] + e.d)
             {
-                dis[t] = dis[u] + 1;
-                paths[t].clear();
-                paths[t].push_back(u);
+                dis[e.t] = dis[v] + e.d;
+                paths[e.t].clear();
+                paths[e.t].push_back(v);
+                q.push(prio_qnode(e.t, dis[e.t]));
             }
-            else if (!vis[t] && dis[t] == dis[u] + 1)
-                paths[t].push_back(u);
+            else if (!vis[e.t] && dis[e.t] == dis[v] + e.d)
+                paths[e.t].push_back(v);
         }
-
-        int min_dis = INT_MAX;
-        int v = -1;
-
-
-        for (int j = 0; j < cur_hash; j++)
-        {
-            if (!vis[j] && min_dis > dis[j])
-            {
-                min_dis = dis[j];
-                v = j;
-            }
-        }
-
-        if (v == -1)
-            return;
-
-        u = v;
     }
 }
 
@@ -132,18 +128,15 @@ int main()
         int last = -1;
         for (int j = 0; j < M; j++)
         {
-            int d, h;
+            int d;
             scanf("%d", &d);
-
-            h = get_hash(d);
-
             if (last != -1)
             {
-                graph[last].push_back(h);
-                graph[h].push_back(last);
-                stop_com[last][h] = stop_com[h][last] = i + 1;
+                add_edge(last, d, 1);
+                add_edge(d, last, 1);
+                stop_com[last][d] = stop_com[d][last] = i + 1;
             }
-            last = h;
+            last = d;
         }
     }
 
@@ -151,24 +144,22 @@ int main()
 
     for (int i = 0; i < K; i++)
     {
-        int s, t, sh, th;
+        int s, t;
         scanf("%d %d", &s, &t);
-        sh = get_hash(s);
-        th = get_hash(t);
 
-        dijkstra(sh);
+        dijkstra(s);
 
-        if (dis[th] == INT_MAX)
+        if (dis[t] == INT_MAX)
             printf("Sorry, no line is available.\n");
         else
         {
             vector<int> tp;
-            tp.push_back(th);
+            tp.push_back(t);
 
             best_path.clear();
             best_transfer = INT_MAX;
 
-            dfs(th, sh, tp, 0, -1);
+            dfs(t, s, tp, 0, -1);
             printf("%d\n", best_path.size() - 1);
 
             int j = best_path.size() - 1;
@@ -182,7 +173,7 @@ int main()
             {
                 if (last_com != stop_com[dstop][best_path[j]])
                 {
-                    printf("Go by the line of company #%d from %04d to %04d.\n", last_com, get_id(sstop), get_id(dstop));
+                    printf("Go by the line of company #%d from %04d to %04d.\n", last_com, sstop, dstop);
                     sstop = dstop;
                     dstop = best_path[j];
                     last_com = stop_com[sstop][dstop];
@@ -192,7 +183,7 @@ int main()
                 j--;
             }
 
-            printf("Go by the line of company #%d from %04d to %04d.\n", last_com, get_id(sstop), get_id(dstop));
+            printf("Go by the line of company #%d from %04d to %04d.\n", last_com, sstop, dstop);
         }
     }
 

@@ -535,4 +535,4 @@ while (E > 1e-10)
 
 Dijkstra + DFS。
 
-【测试点 5】运行超时。
+~~【测试点 5】运行超时。~~ 使用 [priority_queue](https://github.com/Heliovic/AlgorithmSet/blob/master/Dijkstra_priority_queue/main.cpp) 加速 Dijkstra。
