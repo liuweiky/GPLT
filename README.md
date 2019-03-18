@@ -529,7 +529,7 @@ while (E > 1e-10)
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805048482054144)
 
-[C++ (28/30)](https://github.com/Heliovic/GPLT/blob/master/L3-014/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-014/main.cpp)
 
 ### 解题思路
 
