@@ -524,3 +524,15 @@ while (E > 1e-10)
     x += (2 * E) / (m * g);
 }
 ```
+
+## L3-014 周游世界 （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805048482054144)
+
+[C++ (28/30)](https://github.com/Heliovic/GPLT/blob/master/L3-014/main.cpp)
+
+### 解题思路
+
+Dijkstra + DFS。
+
+【测试点 5】运行超时。
