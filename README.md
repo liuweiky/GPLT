@@ -657,3 +657,15 @@ while (E > 1e-10)
 Dijkstra + DFS。
 
 ~~【测试点 5】运行超时。~~ 使用 [priority_queue](https://github.com/Heliovic/AlgorithmSet/blob/master/Dijkstra_priority_queue/main.cpp) 加速 Dijkstra。
+
+## L3-015 球队“食物链” （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805048175869952)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-015/main.cpp)
+
+### 解题思路
+
+DFS + 剪枝。
+
+注意 [此处](https://github.com/Heliovic/GPLT/blob/master/L3-015/main.cpp#L30) 的剪枝策略。若剩余未访问的节点都不存在到起始节点的边，说明最后无法形成有向环，直接回溯。
