@@ -209,6 +209,12 @@
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-029/main.cpp)
 
+## L1-030 一帮一 （15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805103557459968)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-030/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
