@@ -528,6 +528,16 @@ STL set 的使用。
 
 注意，题中所给的节点可能不属于链表内的节点。
 
+## L2-023 图着色问题 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805057298481152)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-023/main.cpp)
+
+### 解题思路
+
+暴力遍历所有边。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
