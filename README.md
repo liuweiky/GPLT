@@ -498,6 +498,16 @@ DFS。
 
 STL set、map 的基本操作。
 
+## L2-020 功夫传人 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805059118809088)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-020/main.cpp)
+
+### 解题思路
+
+DFS。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
