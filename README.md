@@ -508,6 +508,16 @@ STL set、map 的基本操作。
 
 DFS。
 
+## L2-021 点赞狂魔 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805058485469184)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-021/main.cpp)
+
+### 解题思路
+
+STL set 的使用。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
