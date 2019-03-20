@@ -203,6 +203,12 @@
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-028/main.cpp)
 
+## L1-029 是不是太胖了 （5 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805104983523328)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-029/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
