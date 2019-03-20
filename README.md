@@ -215,6 +215,37 @@
 
 [C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-030/main.cpp)
 
+## L1-031 到底是不是太胖了 （10 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805102173339648)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-031/main.cpp)
+
+### 解题思路
+
+注意，在一些平台上此题示例运行结果为：
+
+```
+You are wan mei!
+You are wan mei!
+You are tai pang le!
+```
+
+若出现该问题，注意控制浮点的精度，下面的代码也能 AC。
+
+```cpp
+void judge(double h, double w)
+{
+    double standard = (h - 100) * 0.9 * 2;
+    if (abs(w - standard) - standard * 0.1 < -0.00001)
+        printf("You are wan mei!\n");
+    else if (w > standard)
+        printf("You are tai pang le!\n");
+    else
+        printf("You are tai shou le!\n");
+}
+```
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
