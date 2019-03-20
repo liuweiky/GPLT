@@ -518,6 +518,16 @@ DFS。
 
 STL set 的使用。
 
+## L2-022 重排链表 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805057860517888)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-022/main.cpp)
+
+### 解题思路
+
+注意，题中所给的节点可能不属于链表内的节点。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
