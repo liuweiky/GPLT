@@ -272,6 +272,12 @@ void judge(double h, double w)
 
 [C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-034/main.cpp)
 
+## L1-035 情人节 （15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805097018540032)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-035/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
