@@ -246,6 +246,16 @@ void judge(double h, double w)
 }
 ```
 
+## L1-032 Left-pad （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805100684361728)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-032/main.cpp)
+
+### 解题思路
+
+使用 ```cin.ignore()``` 吸收多余回车。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
