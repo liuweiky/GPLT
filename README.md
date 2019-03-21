@@ -681,3 +681,15 @@ DFS + 剪枝。
 [streamstring](https://github.com/Heliovic/GPLT/blob/master/L3-016/main.cpp#L190) 格式化处理字符串，同sprintf、sscanf。字符串处理时有类似于正则表达式的作用，**非常重要！！！考前必看！！！**
 
 每次使用 streamstring 前先[清空](https://github.com/Heliovic/GPLT/blob/master/L3-016/main.cpp#L142)，防止出错找不到原因。
+
+## L3-017 森森快递 （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805047638999040)
+
+[C++ (17/30)](https://github.com/Heliovic/GPLT/blob/master/L3-017/main.cpp)
+
+### 解题思路
+
+贪心 + 树状数组/线段树。
+
+未通过后三个测试点，再说吧。
