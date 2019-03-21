@@ -669,3 +669,15 @@ Dijkstra + DFS。
 DFS + 剪枝。
 
 注意 [此处](https://github.com/Heliovic/GPLT/blob/master/L3-015/main.cpp#L30) 的剪枝策略。若剩余未访问的节点都不存在到起始节点的边，说明最后无法形成有向环，直接回溯。
+
+## L3-016 二叉搜索树的结构 （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805047903240192)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-016/main.cpp)
+
+### 解题思路
+
+[streamstring](https://github.com/Heliovic/GPLT/blob/master/L3-016/main.cpp#L190) 格式化处理字符串，同sprintf、sscanf。字符串处理时有类似于正则表达式的作用，**非常重要！！！考前必看！！！**
+
+每次使用 streamstring 前先[清空](https://github.com/Heliovic/GPLT/blob/master/L3-016/main.cpp#L142)，防止出错找不到原因。
