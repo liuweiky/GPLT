@@ -346,6 +346,16 @@ void judge(double h, double w)
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-045/main.cpp)
 
+## L1-046 整除光棍 （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805084284633088)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-046/main.cpp)
+
+### 解题思路
+
+除法模拟，好题！
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
