@@ -302,6 +302,12 @@ void judge(double h, double w)
 
 [C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-039/main.cpp)
 
+## L1-040 最佳情侣身高差 （10 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805090748055552)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-040/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
