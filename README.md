@@ -362,6 +362,16 @@ void judge(double h, double w)
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-047/main.cpp)
 
+## L1-048 矩阵A乘以B （15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805082313310208)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-048/main.cpp)
+
+### 解题思路
+
+矩阵乘法模拟。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
