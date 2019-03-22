@@ -324,6 +324,16 @@ void judge(double h, double w)
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-042/main.cpp)
 
+## L1-043 阅览室 （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805087447138304)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-043/main.cpp)
+
+### 解题思路
+
+按照书号排序，之后检查相邻的记录是否是有效记录。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
