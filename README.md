@@ -636,6 +636,16 @@ STL set 的使用。
 
 利用图中顶点的度求解。
 
+## L2-026 小字辈 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805055679479808)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-026/main.cpp)
+
+### 解题思路
+
+树的 BFS。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
