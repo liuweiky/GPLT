@@ -356,6 +356,12 @@ void judge(double h, double w)
 
 除法模拟，好题！
 
+## L1-047 装睡 （10 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805083282194432)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-047/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
