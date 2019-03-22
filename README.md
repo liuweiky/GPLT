@@ -340,6 +340,12 @@ void judge(double h, double w)
 
 [C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-044/main.cpp)
 
+## L1-045 宇宙无敌大招呼 （5 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805085295460352)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-045/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
