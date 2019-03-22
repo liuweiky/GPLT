@@ -318,6 +318,12 @@ void judge(double h, double w)
 
 注意 `while (scanf("%d", &n) != EOF)` 的写法。在 iostream 中对应 `while (cin >> x)`
 
+## L1-042 日期格式化 （5 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805088529268736)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-042/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
