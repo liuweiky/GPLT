@@ -616,6 +616,16 @@ STL set 的使用。
 
 暴力遍历所有边。
 
+## L2-024 部落 （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805056736444416)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-024/main.cpp)
+
+### 解题思路
+
+并查集。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
