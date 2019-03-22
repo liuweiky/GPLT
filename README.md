@@ -334,6 +334,12 @@ void judge(double h, double w)
 
 按照书号排序，之后检查相邻的记录是否是有效记录。
 
+## L1-044 稳赢 （15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805086365007872)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-044/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
