@@ -40,7 +40,7 @@ void dijkstra_l(int u)
         {
             if (!visit[j] && graphl[u][j] > 0 && dis[j] > dis[u] + graphl[u][j])
             {
-                dis[j] = dis[j] > dis[u] + graphl[u][j];
+                dis[j] = dis[u] + graphl[u][j];
                 pathl[j].clear();
                 pathl[j].push_back(u);
             }
@@ -67,9 +67,10 @@ void dijkstra_l(int u)
 
 void dfsl(int u, vector<int> p)
 {
-    if (pathl[u].size() == 0 && (ansl.size() == 0 || p.size() < ansl.size()))
+    if (u == P)
     {
-        ansl = p;
+        if (ansl.size() == 0 || p.size() < ansl.size())
+            ansl = p;
         return;
     }
     for (int i = 0; i < pathl[u].size(); i++)
@@ -121,7 +122,7 @@ void dijkstra_t(int u)
 
 void dfst(int u, vector<int> p)
 {
-    if (patht[u].size() == 0)
+    if (u == P)
     {
         int len = 0;
         for (int i = p.size() - 1; i > 0; i--)
@@ -144,10 +145,6 @@ void dfst(int u, vector<int> p)
 
 void check_path()
 {
-    for (int i = anst.size() - 1; i > 0; i--)
-        total_t += grapht[anst[i]][anst[i - 1]];
-    for (int i = ansl.size() - 1; i > 0; i--)
-        total_len += graphl[ansl[i]][ansl[i - 1]];
     if (ansl.size() != anst.size())
     {
         same = false;
@@ -188,9 +185,12 @@ int main()
     tmp.push_back(Q);
 
     dijkstra_l(P);
+    total_len = dis[Q];
     dfsl(Q, tmp);
 
+
     dijkstra_t(P);
+    total_t = dis[Q];
     dfst(Q, tmp);
 
     check_path();

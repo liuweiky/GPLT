@@ -730,11 +730,11 @@ Dijkstra。
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805051153825792)
 
-[C++ (27/30)](https://github.com/Heliovic/GPLT/blob/master/L3-007/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-007/main.cpp)
 
 ### 解题思路
 
-Dijkstra + DFS。【测试点 4】答案错误。
+Dijkstra + DFS。~~【测试点 4】答案错误~~ 错误原因纯属手滑。
 
 ## L3-008 喊山 （30 分）
 
