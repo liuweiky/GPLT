@@ -746,6 +746,16 @@ Dijkstra + DFS。~~【测试点 4】答案错误~~ 错误原因纯属手滑。
 
 BFS。注意，若图论问题需要求关于层级的解，DFS 可能会导致最小层数错误，求层级时最好使用 BFS。
 
+## L3-009 长城 （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805050277216256)
+
+[C++ (30/30)](https://github.com/Heliovic/GPLT/blob/master/L3-009/main.cpp)
+
+### 解题思路
+
+使用 [Graham](https://github.com/Heliovic/AlgorithmSet/blob/master/Graham/main.cpp) 算法求凸包，记录那些在求凸包过程中三个点向左拐的中间“凸点”，这些点就是所求点。好题。
+
 ## L3-010 是否完全二叉搜索树 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805049870368768)
