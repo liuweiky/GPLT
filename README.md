@@ -372,6 +372,12 @@ void judge(double h, double w)
 
 矩阵乘法模拟。
 
+## L1-049 天梯赛座位分配 （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805081289900032)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-049/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
