@@ -378,6 +378,16 @@ void judge(double h, double w)
 
 [C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-049/main.cpp)
 
+## L1-050 倒数第N个字符串 （15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805080346181632)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-050/main.cpp)
+
+### 解题思路
+
+进制转换。先算出正数第几个数，之后将该十进制数转为 26 进制数。在 26 进制中，a-z 对应 0-25。转为 26 进制后长度不够时，记得输出 [前导 0(a)](https://github.com/Heliovic/GPLT/blob/master/L1-050/main.cpp#L32)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
