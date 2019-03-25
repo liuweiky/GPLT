@@ -388,6 +388,12 @@ void judge(double h, double w)
 
 进制转换。先算出正数第几个数，之后将该十进制数转为 26 进制数。在 26 进制中，a-z 对应 0-25。转为 26 进制后长度不够时，记得输出 [前导 0(a)](https://github.com/Heliovic/GPLT/blob/master/L1-050/main.cpp#L32)
 
+## L1-051 打折 （5 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805079364714496)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-051/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
