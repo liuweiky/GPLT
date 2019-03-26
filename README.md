@@ -412,6 +412,12 @@ void judge(double h, double w)
 
 [C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-054/main.cpp)
 
+## L1-055 谁是赢家 （10 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805075543703552)
+
+[C++ (10/10)](https://github.com/Heliovic/GPLT/blob/master/L1-055/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
