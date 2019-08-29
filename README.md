@@ -440,6 +440,16 @@ void judge(double h, double w)
 
 string 类的 replace 使用。
 
+## L1-059 敲笨钟 (20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858880)
+
+[C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-059/main.cpp)
+
+### 解题思路
+
+string 类的查找替换。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
