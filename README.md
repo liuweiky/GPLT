@@ -424,6 +424,12 @@ void judge(double h, double w)
 
 [C++ (20/20)](https://github.com/Heliovic/GPLT/blob/master/L1-056/main.cpp)
 
+## L1-057 PTA使我精神焕发 (5 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599408664576)
+
+[C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-057/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
