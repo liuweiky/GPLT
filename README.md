@@ -468,6 +468,12 @@ string 类的查找替换。
 
 [C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-062/main.cpp)
 
+## L1-063 吃鱼还是吃肉 (10 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858883)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-062/main.cpp)
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
