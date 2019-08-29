@@ -430,6 +430,16 @@ void judge(double h, double w)
 
 [C++ (5/5)](https://github.com/Heliovic/GPLT/blob/master/L1-057/main.cpp)
 
+## L1-058 6翻了 (15 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599408664577)
+
+[C++ (15/15)](https://github.com/Heliovic/GPLT/blob/master/L1-058/main.cpp)
+
+### 解题思路
+
+string 类的 replace 使用。
+
 ## L2-001 紧急救援 （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805073643683840)
