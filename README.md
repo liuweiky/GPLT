@@ -778,6 +778,12 @@ STL set 的使用。
 
 不该算的不算。
 
+## L2-029 特立独行的幸福 (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858886)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-029/main.cpp)
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
