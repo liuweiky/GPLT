@@ -790,6 +790,16 @@ STL set 的使用。
 
 [C++ (22/25)](https://github.com/Heliovic/GPLT/blob/master/L2-030/main.cpp)
 
+## L2-031 深入虎穴 (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/1111914599412858888)
+
+[C++ (25/25)](https://github.com/Heliovic/GPLT/blob/master/L2-031/main.cpp)
+
+### 解题思路
+
+BFS。
+
 ## L3-001 凑零钱 （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805046380707840/problems/994805054207279104)
